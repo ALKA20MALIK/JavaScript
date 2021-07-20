@@ -1,7 +1,6 @@
 const promise = new Promise((resolve,reject)=>{
     resolve(5);
-    reject(5);
-    //
+   // reject(5);
 });
 
 promise.then(Addition)
